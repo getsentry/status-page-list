@@ -1,0 +1,1 @@
+export { domainToStatusPageUrls } from "./domainToStatusPageUrls";

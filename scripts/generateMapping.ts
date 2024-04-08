@@ -1,5 +1,5 @@
 import * as fs from "node:fs";
-import { generateCode, loadFile, parseModule } from "magicast";
+import { generateCode, loadFile } from "magicast";
 import { format } from "prettier";
 
 import type { StatusPageInfo } from "../src/types";
