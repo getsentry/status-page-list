@@ -30,7 +30,7 @@ async function run() {
   delete mod.exports.REPLACE_statusInfo;
 
   mod.exports[
-    `${String(values.name).toLowerCase()}StatusInfo: StatusPageInfo`
+    `${String(values.name).replace(" ", "").toLowerCase()}StatusInfo: StatusPageInfo`
   ] = temp;
 
   const { code } = generateCode(mod);
