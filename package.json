@@ -1,0 +1,323 @@
+{
+  "default": {
+    "name": "@sentry/status-page-list",
+    "version": "0.0.1",
+    "license": "MIT",
+    "type": "module",
+    "main": "./dist/cjs/index.js",
+    "module": "./dist/esm/index.mjs",
+    "types": "./dist/cjs/index.d.ts",
+    "exports": {
+      "./package.json": "./package.json",
+      ".": {
+        "import": {
+          "types": "./dist/esm/index.d.mts",
+          "default": "./dist/esm/index.mjs"
+        },
+        "require": {
+          "types": "./dist/cjs/index.d.ts",
+          "default": "./dist/cjs/index.js"
+        }
+      },
+      "./data/absurd_design": {
+        "import": {
+          "types": "./dist/esm/data/absurd_design.d.mts",
+          "default": "./dist/esm/data/absurd_design.mjs"
+        },
+        "require": {
+          "types": "./dist/cjs/data/absurd_design.d.ts",
+          "default": "./dist/cjs/data/absurd_design.js"
+        }
+      },
+      "./data/adobe": {
+        "import": {
+          "types": "./dist/esm/data/adobe.d.mts",
+          "default": "./dist/esm/data/adobe.mjs"
+        },
+        "require": {
+          "types": "./dist/cjs/data/adobe.d.ts",
+          "default": "./dist/cjs/data/adobe.js"
+        }
+      },
+      "./data/akamai": {
+        "import": {
+          "types": "./dist/esm/data/akamai.d.mts",
+          "default": "./dist/esm/data/akamai.mjs"
+        },
+        "require": {
+          "types": "./dist/cjs/data/akamai.d.ts",
+          "default": "./dist/cjs/data/akamai.js"
+        }
+      },
+      "./data/amplitude": {
+        "import": {
+          "types": "./dist/esm/data/amplitude.d.mts",
+          "default": "./dist/esm/data/amplitude.mjs"
+        },
+        "require": {
+          "types": "./dist/cjs/data/amplitude.d.ts",
+          "default": "./dist/cjs/data/amplitude.js"
+        }
+      },
+      "./data/apple_developer": {
+        "import": {
+          "types": "./dist/esm/data/apple_developer.d.mts",
+          "default": "./dist/esm/data/apple_developer.mjs"
+        },
+        "require": {
+          "types": "./dist/cjs/data/apple_developer.d.ts",
+          "default": "./dist/cjs/data/apple_developer.js"
+        }
+      },
+      "./data/atlassian": {
+        "import": {
+          "types": "./dist/esm/data/atlassian.d.mts",
+          "default": "./dist/esm/data/atlassian.mjs"
+        },
+        "require": {
+          "types": "./dist/cjs/data/atlassian.d.ts",
+          "default": "./dist/cjs/data/atlassian.js"
+        }
+      },
+      "./data/codecov": {
+        "import": {
+          "types": "./dist/esm/data/codecov.d.mts",
+          "default": "./dist/esm/data/codecov.mjs"
+        },
+        "require": {
+          "types": "./dist/cjs/data/codecov.d.ts",
+          "default": "./dist/cjs/data/codecov.js"
+        }
+      },
+      "./data/github": {
+        "import": {
+          "types": "./dist/esm/data/github.d.mts",
+          "default": "./dist/esm/data/github.mjs"
+        },
+        "require": {
+          "types": "./dist/cjs/data/github.d.ts",
+          "default": "./dist/cjs/data/github.js"
+        }
+      },
+      "./data/google_cloud": {
+        "import": {
+          "types": "./dist/esm/data/google_cloud.d.mts",
+          "default": "./dist/esm/data/google_cloud.mjs"
+        },
+        "require": {
+          "types": "./dist/cjs/data/google_cloud.d.ts",
+          "default": "./dist/cjs/data/google_cloud.js"
+        }
+      },
+      "./data/sentry": {
+        "import": {
+          "types": "./dist/esm/data/sentry.d.mts",
+          "default": "./dist/esm/data/sentry.mjs"
+        },
+        "require": {
+          "types": "./dist/cjs/data/sentry.d.ts",
+          "default": "./dist/cjs/data/sentry.js"
+        }
+      },
+      "./data/slack": {
+        "import": {
+          "types": "./dist/esm/data/slack.d.mts",
+          "default": "./dist/esm/data/slack.mjs"
+        },
+        "require": {
+          "types": "./dist/cjs/data/slack.d.ts",
+          "default": "./dist/cjs/data/slack.js"
+        }
+      }
+    },
+    "files": [
+      "src",
+      "dist"
+    ],
+    "scripts": {
+      "build": "bunchee",
+      "generate": "tsx scripts/generateMapping.ts",
+      "test": "vitest",
+      "lint": "yarn format:check",
+      "lint:fix": "yarn format:fix",
+      "format:check": "prettier --check .",
+      "format:fix": "prettier --write ."
+    },
+    "devDependencies": {
+      "@types/node": "^20.12.5",
+      "bunchee": "^5.1.2",
+      "magicast": "^0.3.3",
+      "prettier": "3.2.5",
+      "tsx": "^4.7.2",
+      "typescript": "^5.4.4",
+      "vitest": "^1.4.0"
+    },
+    "engines": {
+      "node": ">=14"
+    },
+    "volta": {
+      "node": "20.12.1",
+      "yarn": "1.22.22"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.5",
+    "bunchee": "^5.1.2",
+    "magicast": "^0.3.3",
+    "prettier": "3.2.5",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.4",
+    "vitest": "^1.4.0"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "development": "./src/index.ts",
+      "import": {
+        "types": "./dist/esm/index.d.mts",
+        "default": "./dist/esm/index.mjs"
+      },
+      "require": {
+        "types": "./dist/cjs/index.d.ts",
+        "default": "./dist/cjs/index.js"
+      }
+    },
+    "./data/absurd_design": {
+      "import": {
+        "types": "./dist/esm/data/absurd_design.d.mts",
+        "default": "./dist/esm/data/absurd_design.mjs"
+      },
+      "require": {
+        "types": "./dist/cjs/data/absurd_design.d.ts",
+        "default": "./dist/cjs/data/absurd_design.js"
+      }
+    },
+    "./data/adobe": {
+      "import": {
+        "types": "./dist/esm/data/adobe.d.mts",
+        "default": "./dist/esm/data/adobe.mjs"
+      },
+      "require": {
+        "types": "./dist/cjs/data/adobe.d.ts",
+        "default": "./dist/cjs/data/adobe.js"
+      }
+    },
+    "./data/akamai": {
+      "import": {
+        "types": "./dist/esm/data/akamai.d.mts",
+        "default": "./dist/esm/data/akamai.mjs"
+      },
+      "require": {
+        "types": "./dist/cjs/data/akamai.d.ts",
+        "default": "./dist/cjs/data/akamai.js"
+      }
+    },
+    "./data/amplitude": {
+      "import": {
+        "types": "./dist/esm/data/amplitude.d.mts",
+        "default": "./dist/esm/data/amplitude.mjs"
+      },
+      "require": {
+        "types": "./dist/cjs/data/amplitude.d.ts",
+        "default": "./dist/cjs/data/amplitude.js"
+      }
+    },
+    "./data/apple_developer": {
+      "import": {
+        "types": "./dist/esm/data/apple_developer.d.mts",
+        "default": "./dist/esm/data/apple_developer.mjs"
+      },
+      "require": {
+        "types": "./dist/cjs/data/apple_developer.d.ts",
+        "default": "./dist/cjs/data/apple_developer.js"
+      }
+    },
+    "./data/atlassian": {
+      "import": {
+        "types": "./dist/esm/data/atlassian.d.mts",
+        "default": "./dist/esm/data/atlassian.mjs"
+      },
+      "require": {
+        "types": "./dist/cjs/data/atlassian.d.ts",
+        "default": "./dist/cjs/data/atlassian.js"
+      }
+    },
+    "./data/codecov": {
+      "import": {
+        "types": "./dist/esm/data/codecov.d.mts",
+        "default": "./dist/esm/data/codecov.mjs"
+      },
+      "require": {
+        "types": "./dist/cjs/data/codecov.d.ts",
+        "default": "./dist/cjs/data/codecov.js"
+      }
+    },
+    "./data/github": {
+      "import": {
+        "types": "./dist/esm/data/github.d.mts",
+        "default": "./dist/esm/data/github.mjs"
+      },
+      "require": {
+        "types": "./dist/cjs/data/github.d.ts",
+        "default": "./dist/cjs/data/github.js"
+      }
+    },
+    "./data/google_cloud": {
+      "import": {
+        "types": "./dist/esm/data/google_cloud.d.mts",
+        "default": "./dist/esm/data/google_cloud.mjs"
+      },
+      "require": {
+        "types": "./dist/cjs/data/google_cloud.d.ts",
+        "default": "./dist/cjs/data/google_cloud.js"
+      }
+    },
+    "./data/sentry": {
+      "import": {
+        "types": "./dist/esm/data/sentry.d.mts",
+        "default": "./dist/esm/data/sentry.mjs"
+      },
+      "require": {
+        "types": "./dist/cjs/data/sentry.d.ts",
+        "default": "./dist/cjs/data/sentry.js"
+      }
+    },
+    "./data/slack": {
+      "import": {
+        "types": "./dist/esm/data/slack.d.mts",
+        "default": "./dist/esm/data/slack.mjs"
+      },
+      "require": {
+        "types": "./dist/cjs/data/slack.d.ts",
+        "default": "./dist/cjs/data/slack.js"
+      }
+    }
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "license": "MIT",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.mjs",
+  "name": "@sentry/status-page-list",
+  "scripts": {
+    "build": "bunchee",
+    "generate": "tsx scripts/generateMapping.ts",
+    "test": "vitest",
+    "lint": "yarn format:check",
+    "lint:fix": "yarn format:fix",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write ."
+  },
+  "type": "module",
+  "types": "./dist/cjs/index.d.ts",
+  "version": "0.0.1",
+  "volta": {
+    "node": "20.12.1",
+    "yarn": "1.22.22"
+  }
+}
