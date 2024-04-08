@@ -16,5 +16,6 @@
     "moduleResolution": "bundler",
     "noEmit": true,
     "lib": ["es2022"]
-  }
+  },
+  "exclude": ["templates/data.template.ts"]
 }

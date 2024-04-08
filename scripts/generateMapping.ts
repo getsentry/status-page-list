@@ -49,7 +49,7 @@ async function generateDataIndex(files: string[], data: DataModule[]) {
 }
 
 async function generateAddDomainToStatusPageUrls(data: DataModule[]) {
-  const mod = await loadFile("./templates/default_domainToStatusPageUrls.ts");
+  const mod = await loadFile("./templates/domainToStatusPageUrls.template.ts");
 
   for (const { domains, statusPageUrl } of data) {
     domains.forEach((domain) => {
