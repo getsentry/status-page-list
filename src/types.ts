@@ -4,13 +4,13 @@ export interface StatusPageInfo {
    */
   name: string;
   /**
-   * The domains that the service uses.
-   */
-  domains: string[];
-  /**
    * The URL of the status page.
    */
   statusPageUrl: string;
+  /**
+   * The domains that the service uses.
+   */
+  domains: string[];
   /**
    * Whether the service is operational.
    */

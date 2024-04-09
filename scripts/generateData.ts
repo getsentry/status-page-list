@@ -30,13 +30,13 @@ async function run() {
   delete mod.exports.REPLACE_statusInfo;
 
   mod.exports[
-    `${String(values.name).replace(" ", "").toLowerCase()}StatusInfo: StatusPageInfo`
+    `${String(values.name).replaceAll(" ", "").toLowerCase()}StatusInfo: StatusPageInfo`
   ] = temp;
 
   const { code } = generateCode(mod);
 
   await fs.promises.writeFile(
-    `src/data/${String(values.name).replace(" ", "_").toLowerCase()}.ts`,
+    `src/data/${String(values.name).replaceAll(" ", "_").toLowerCase()}.ts`,
     await format(
       code.replace(
         "// @ts-expect-error Wrong import location because template\n",

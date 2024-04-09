@@ -4,7 +4,7 @@ export const name = "Slack";
 
 export const statusPageUrl = "https://slack-status.com/";
 
-export const domains = ["*.slack.com", "slack.com"];
+export const domains = ["slack.com", "*.slack.com"];
 
 export const isOperational = true;
 

@@ -5,8 +5,8 @@ export const name = "Atlassian";
 export const statusPageUrl = "https://status.atlassian.com/";
 
 export const domains = [
-  "*.atlassian.net",
   "atlassian.net",
+  "*.atlassian.net",
   "atlassian.com",
   "*.atlassian.com",
 ];
