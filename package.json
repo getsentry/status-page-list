@@ -1,6 +1,6 @@
 {
   "name": "@sentry/status-page-list",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "description": "List of public status pages for various cloud services exposed as a JavaScript library",
   "main": "./dist/cjs/index.js",
