@@ -1,5 +1,7 @@
 # Status Page List
 
+[![npm version](https://img.shields.io/npm/v/@sentry/status-page-list.svg)](https://www.npmjs.com/package/@sentry/status-page-list)
+
 This page is a list of public status pages for various cloud services exposed as a JavaScript library.
 
 Big thank you to [Awesome status pages](https://github.com/ivbeg/awesome-status-pages) and it's creator [Ivan Begtin](https://github.com/ivbeg) for helping provide the initial list of status pages.
