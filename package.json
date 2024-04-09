@@ -2,6 +2,7 @@
   "name": "@sentry/status-page-list",
   "version": "0.0.0",
   "license": "MIT",
+  "description": "List of public status pages for various cloud services exposed as a JavaScript library",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.mjs",
   "types": "./dist/cjs/index.d.ts",
@@ -20,6 +21,9 @@
   "files": [
     "dist"
   ],
+  "engines": {
+    "node": ">=14"
+  },
   "scripts": {
     "build": "bunchee",
     "generate": "tsx scripts/generateMapping.ts",
@@ -40,11 +44,19 @@
     "typescript": "^5.4.4",
     "vitest": "^1.4.0"
   },
-  "engines": {
-    "node": ">=14"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getsentry/status-page-list.git"
   },
+  "bugs": {
+    "url": "https://github.com/getsentry/status-page-list/issues"
+  },
+  "homepage": "https://github.com/getsentry/status-page-list#readme",
   "volta": {
     "node": "20.12.1",
     "yarn": "1.22.22"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
