@@ -25,6 +25,7 @@
     "generate": "tsx scripts/generateMapping.ts",
     "generate:data": "tsx scripts/generateData.ts",
     "test": "vitest",
+    "typecheck": "tsc --noEmit",
     "lint": "yarn format:check",
     "lint:fix": "yarn format:fix",
     "format:check": "prettier --check .",
