@@ -63,6 +63,8 @@ export const domainToStatusPageUrls = {
   "dropbox.com": "https://status.dropbox.com/",
   "fastly.com": "https://www.fastlystatus.com/",
   "*.fastly.com": "https://www.fastlystatus.com/",
+  "gibpotato.app": "https://status.gibpotato.app/",
+  "*.gibpotato.app": "https://status.gibpotato.app/",
   "github.com": "https://www.githubstatus.com",
   "*.github.com": "https://www.githubstatus.com",
   "github.io": "https://www.githubstatus.com",
