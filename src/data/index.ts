@@ -31,6 +31,7 @@ export { digitalOceanStatusInfo } from "./digitalocean";
 export { discordStatusInfo } from "./discord";
 export { dropboxStatusInfo } from "./dropbox";
 export { fastlyStatusInfo } from "./fastly";
+export { gibpotatoStatusInfo } from "./gibpotato";
 export { githubStatusInfo } from "./github";
 export { gitlabStatusInfo } from "./gitlab";
 export { googleAdsStatusInfo } from "./google_ads";
