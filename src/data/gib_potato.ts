@@ -8,7 +8,7 @@ export const domains = ["gibpotato.app", "*.gibpotato.app"];
 
 export const isOperational = true;
 
-export const gibpotatoStatusInfo: StatusPageInfo = {
+export const gibPotatoStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
