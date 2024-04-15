@@ -8,6 +8,7 @@ This release adds entries for Intercom, Riot Games, Snowflake, Twitch, and GibPo
 - feat: Add more entries (#5)
 - feat: Disable side effects (#6)
 - feat: Use `isServiceDefunct` instead of `isOperational` (#7)
+- fix: Make atlassian not defunct (#9)
 
 ## 0.0.1
 
