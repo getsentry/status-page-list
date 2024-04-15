@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.0.2
+
+This release adds entries for Intercom, Riot Games, Snowflake, Twitch, and GibPotato and fixes tree-shaking by setting `sideEffects` false in `package.json`. It also removes the `isOperational` field in favour of `isServiceDefunct`.
+
+- Add status.gibpotato.app (#4)
+- feat: Add more entries (#5)
+- feat: Disable side effects (#6)
+- feat: Use `isServiceDefunct` instead of `isOperational` (#7)
+
 ## 0.0.1
 
 This is the first release of `@sentry/status-page-list`. It contains status page entries for the following services:
