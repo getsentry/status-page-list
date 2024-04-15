@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.cloud.google.com";
 
 export const domains = ["googleapis.com", "*.googleapis.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const googleCloudStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

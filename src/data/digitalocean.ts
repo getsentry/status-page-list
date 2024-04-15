@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.digitalocean.com/";
 
 export const domains = ["digitalocean.com", "*.digitalocean.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const digitalOceanStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

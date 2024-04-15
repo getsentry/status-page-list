@@ -6,11 +6,11 @@ export const statusPageUrl = "https://www.google.com/appsstatus/dashboard/";
 
 export const domains = ["workspace.google.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const googleWorkspaceStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

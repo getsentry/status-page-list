@@ -7,11 +7,11 @@ export const statusPageUrl = "";
 
 export const domains = [""];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const REPLACE_statusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

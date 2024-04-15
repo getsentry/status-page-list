@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.lucid.co/";
 
 export const domains = ["lucid.co", "*.lucid.co"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const lucidStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

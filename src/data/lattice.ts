@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.lattice.com/";
 
 export const domains = ["lattice.com", "*.lattice.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const latticeStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

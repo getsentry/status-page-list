@@ -36,7 +36,7 @@ async function generateDataIndex(files: string[], data: DataModule[]) {
   */\n\n`;
 
   data.forEach(
-    ({ name, statusPageUrl, domains, isOperational, ...rest }, index) => {
+    ({ name, statusPageUrl, domains, isServiceDefunct, ...rest }, index) => {
       const key = Object.keys(rest)[0];
       code += `export { ${key} } from "./${files[index]?.replace(".ts", "")}";\n`;
     },
@@ -51,11 +51,14 @@ async function generateDataIndex(files: string[], data: DataModule[]) {
 async function generateAddDomainToStatusPageUrls(data: DataModule[]) {
   const mod = await loadFile("./templates/domainToStatusPageUrls.template.ts");
 
-  for (const { domains, statusPageUrl } of data) {
-    domains.forEach((domain) => {
-      // TODO: Modify the AST to make is `as const`.
-      mod.exports.domainToStatusPageUrls[domain] = statusPageUrl;
-    });
+  for (const { domains, statusPageUrl, isServiceDefunct } of data) {
+    // Only add non-defunct entries to exports.
+    if (!isServiceDefunct) {
+      domains.forEach((domain) => {
+        // TODO: Modify the AST to make is `as const`.
+        mod.exports.domainToStatusPageUrls[domain] = statusPageUrl;
+      });
+    }
   }
 
   const { code } = generateCode(mod);

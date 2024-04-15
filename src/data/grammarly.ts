@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.grammarly.com/";
 
 export const domains = ["grammarly.com", "*.grammarly.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const grammarlyStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

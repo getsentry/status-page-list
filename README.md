@@ -22,8 +22,8 @@ const {
   domains,
   // "https://status.sentry.io/"
   statusPageUrl,
-  // true
-  isOperational,
+  // false
+  isServiceDefunct,
 } = sentryStatusInfo;
 ```
 

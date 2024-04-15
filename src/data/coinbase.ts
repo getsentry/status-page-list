@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.coinbase.com/";
 
 export const domains = ["coinbase.com", "*.coinbase.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const coinbaseStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

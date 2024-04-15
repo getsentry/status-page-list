@@ -6,11 +6,11 @@ export const statusPageUrl = "https://metastatus.com/";
 
 export const domains = ["meta.com", "facebook.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const metaStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.dropbox.com/";
 
 export const domains = ["dropbox.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const dropboxStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

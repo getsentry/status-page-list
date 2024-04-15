@@ -6,11 +6,11 @@ export const statusPageUrl = "https://www.fastlystatus.com/";
 
 export const domains = ["fastly.com", "*.fastly.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const fastlyStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

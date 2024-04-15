@@ -6,11 +6,11 @@ export const statusPageUrl = "https://trust.jitterbit.com/";
 
 export const domains = ["jitterbit.com", "*.jitterbit.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const jitterbitStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

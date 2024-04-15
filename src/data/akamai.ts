@@ -6,11 +6,11 @@ export const statusPageUrl = "https://www.akamaistatus.com/";
 
 export const domains = ["akamai.com", "*.akamai.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const akamaiStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

@@ -6,11 +6,11 @@ export const statusPageUrl = "https://www.paypal-status.com/product/production";
 
 export const domains = ["paypal.com", "*.paypal.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const payPalStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.sumsub.com/";
 
 export const domains = ["sumsub.com", "*.sumbsub.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const sumsubStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

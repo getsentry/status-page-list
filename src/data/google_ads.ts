@@ -6,11 +6,11 @@ export const statusPageUrl = "https://ads.google.com/status/publisher/";
 
 export const domains = ["ads.google.com", "googleads.googleapis.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const googleAdsStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.crowdin.com/";
 
 export const domains = ["crowdin.com", "*.crowdin.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const crowdinStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

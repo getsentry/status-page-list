@@ -6,11 +6,11 @@ export const statusPageUrl = "https://www.redditstatus.com/";
 
 export const domains = ["reddit.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const redditStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

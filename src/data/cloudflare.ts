@@ -6,11 +6,11 @@ export const statusPageUrl = "https://www.cloudflarestatus.com/";
 
 export const domains = ["cloudflare.com", "*.cloudflare.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const cloudflareStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

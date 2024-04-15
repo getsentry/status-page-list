@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.hubspot.com/";
 
 export const domains = ["hubspot.com", "*.hubspot.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const hubspotStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

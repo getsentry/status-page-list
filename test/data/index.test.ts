@@ -16,7 +16,7 @@ describe("index", () => {
     const dataExports = (
       await Promise.all(files.map((file) => import(`../../src/data/${file}`)))
     ).map((i: typeof sentryData) => {
-      const { name, statusPageUrl, domains, isOperational, ...rest } = i;
+      const { name, statusPageUrl, domains, isServiceDefunct, ...rest } = i;
       return Object.keys(rest)[0] as string;
     });
 

@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.openai.com/";
 
 export const domains = ["openai.com", "*.openai.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const openAIStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

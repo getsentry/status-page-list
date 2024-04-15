@@ -6,11 +6,11 @@ export const statusPageUrl = "https://discordstatus.com/";
 
 export const domains = ["discord.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const discordStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };
