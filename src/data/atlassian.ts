@@ -11,7 +11,7 @@ export const domains = [
   "*.atlassian.com",
 ];
 
-export const isServiceDefunct = true;
+export const isServiceDefunct = false;
 
 export const atlassianStatusInfo: StatusPageInfo = {
   name,
