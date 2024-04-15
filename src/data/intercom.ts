@@ -6,11 +6,11 @@ export const statusPageUrl = "https://www.intercomstatus.com/";
 
 export const domains = ["intercom.com", "intercom.io", "*.intercom.io"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const intercomStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

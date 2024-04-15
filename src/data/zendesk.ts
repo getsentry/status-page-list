@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.zendesk.com/";
 
 export const domains = ["zendesk.com", "*.zendesk.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const zendeskStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

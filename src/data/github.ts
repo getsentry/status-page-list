@@ -11,11 +11,11 @@ export const domains = [
   "*.github.io",
 ];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const githubStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

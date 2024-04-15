@@ -12,7 +12,10 @@ export interface StatusPageInfo {
    */
   domains: string[];
   /**
-   * Whether the service is operational.
+   * Whether the service is defunct.
+   *
+   * Used to deprecate services without having to release major versions
+   * to remove defunct services.
    */
-  isOperational: boolean;
+  isServiceDefunct: boolean;
 }

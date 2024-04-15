@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.sentry.io/";
 
 export const domains = ["sentry.io", "*.sentry.io"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const sentryStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

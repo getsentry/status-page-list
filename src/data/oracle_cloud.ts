@@ -6,11 +6,11 @@ export const statusPageUrl = "https://ocistatus.oraclecloud.com";
 
 export const domains = ["oraclecloud.com", "*.oraclecloud.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const oracleCloudStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

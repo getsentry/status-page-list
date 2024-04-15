@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.alibabacloud.com";
 
 export const domains = ["alibabacloud.com", "*.alibabacloud.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const alibabaCloudStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

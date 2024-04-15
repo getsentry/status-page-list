@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.stripe.com/";
 
 export const domains = ["stripe.com", "*.stripe.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const stripeStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

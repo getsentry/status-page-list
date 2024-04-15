@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.designmodo.com/";
 
 export const domains = ["designmodo.com", "*.designmodo.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const designmodoStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

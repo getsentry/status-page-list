@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.playstation.com/";
 
 export const domains = ["playstation.com", "*.playstation.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const sonyPlaystationStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

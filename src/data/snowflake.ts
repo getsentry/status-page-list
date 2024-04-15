@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.snowflake.com/";
 
 export const domains = ["snowflake.com", "*.snowflake.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const snowflakeStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

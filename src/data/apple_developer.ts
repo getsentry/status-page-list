@@ -6,11 +6,11 @@ export const statusPageUrl = "https://developer.apple.com/system-status/";
 
 export const domains = ["*.apple.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const appleDeveloperStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

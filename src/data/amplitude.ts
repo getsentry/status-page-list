@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.amplitude.com/";
 
 export const domains = ["amplitude.com", "*.amplitude.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const amplitudeStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

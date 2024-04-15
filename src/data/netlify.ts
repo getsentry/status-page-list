@@ -6,11 +6,11 @@ export const statusPageUrl = "https://www.netlifystatus.com/";
 
 export const domains = ["netlify.com", "*.netlify.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const netlifyStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

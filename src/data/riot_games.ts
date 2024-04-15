@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.riotgames.com";
 
 export const domains = ["riotgames.com", "*.riotgames.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const riotGamesStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

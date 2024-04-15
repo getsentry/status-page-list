@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.hibob.io/";
 
 export const domains = ["hibob.io", "*.hibob.io"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const hiBobStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

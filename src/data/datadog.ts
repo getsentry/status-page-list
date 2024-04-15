@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.datadoghq.com/";
 
 export const domains = ["datadoghq.com", "*.datadoghq.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const datadogStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

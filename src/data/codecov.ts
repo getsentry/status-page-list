@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.codecov.com/";
 
 export const domains = ["codecov.io", "*.codecov.io"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const codecovStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

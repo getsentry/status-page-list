@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.cloud.microsoft/";
 
 export const domains = ["cloud.microsoft", "microsoft365.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const microsoftCloudStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };

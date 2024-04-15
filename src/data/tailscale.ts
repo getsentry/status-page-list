@@ -6,11 +6,11 @@ export const statusPageUrl = "https://status.tailscale.com/";
 
 export const domains = ["tailscale.com", "*.tailscale.com"];
 
-export const isOperational = true;
+export const isServiceDefunct = false;
 
 export const tailscaleStatusInfo: StatusPageInfo = {
   name,
   domains,
   statusPageUrl,
-  isOperational,
+  isServiceDefunct,
 };
