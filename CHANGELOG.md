@@ -4,10 +4,10 @@
 
 This release adds entries for Intercom, Riot Games, Snowflake, Twitch, and GibPotato and fixes tree-shaking by setting `sideEffects` false in `package.json`. It also removes the `isOperational` field in favour of `isServiceDefunct`.
 
-- Add status.gibpotato.app (#4)
+- [BREAKING] feat: Use `isServiceDefunct` instead of `isOperational` (#7)
+- feat: Add status.gibpotato.app (#4)
 - feat: Add more entries (#5)
 - feat: Disable side effects (#6)
-- feat: Use `isServiceDefunct` instead of `isOperational` (#7)
 - fix: Make atlassian not defunct (#9)
 
 ## 0.0.1
