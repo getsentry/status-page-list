@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.0.2
+## 0.1.0
 
 This release adds entries for Intercom, Riot Games, Snowflake, Twitch, and GibPotato and fixes tree-shaking by setting `sideEffects` false in `package.json`. It also removes the `isOperational` field in favour of `isServiceDefunct`.
 
