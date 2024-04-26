@@ -11,6 +11,12 @@
 export const domainToStatusPageUrls = {
   "adobe.com": "https://status.adobe.com/",
   "*.adobe.com": "https://status.adobe.com/",
+  "adobe.io": "https://status.adobe.com/",
+  "*.adobe.io": "https://status.adobe.com/",
+  "adobecc.com": "https://status.adobe.com/",
+  "*.adobecc.com": "https://status.adobe.com/",
+  "adobe-identity.com": "https://status.adobe.com/",
+  "*.adobe-identity.com": "https://status.adobe.com/",
   "airgateway.com": "https://status.airgateway.com/",
   "*.airgateway.com": "https://status.airgateway.com/",
   "akamai.com": "https://www.akamaistatus.com/",
