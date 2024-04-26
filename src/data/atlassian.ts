@@ -9,6 +9,10 @@ export const domains = [
   "*.atlassian.net",
   "atlassian.com",
   "*.atlassian.com",
+  "statuspage.io",
+  "*.statuspage.io",
+  "jira.com",
+  "*.jira.com",
 ];
 
 export const isServiceDefunct = false;

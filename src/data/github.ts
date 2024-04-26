@@ -9,6 +9,11 @@ export const domains = [
   "*.github.com",
   "github.io",
   "*.github.io",
+  "githubusercontent.com",
+  "raw.githubusercontent.com",
+  "*.githubusercontent.com",
+  "actions.githubusercontent.com",
+  "*.actions.githubusercontent.com",
 ];
 
 export const isServiceDefunct = false;

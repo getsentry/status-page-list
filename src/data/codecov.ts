@@ -4,7 +4,12 @@ export const name = "Codecov";
 
 export const statusPageUrl = "https://status.codecov.com/";
 
-export const domains = ["codecov.io", "*.codecov.io"];
+export const domains = [
+  "codecov.io",
+  "*.codecov.io",
+  "codecov.dev",
+  "*.codecov.dev",
+];
 
 export const isServiceDefunct = false;
 
