@@ -2,7 +2,7 @@
 
 ## 0.2.0
 
-This release adds entries for Airateway, Algolia, Appveyor, Automattic/Wordpress, Braze, Contentstack, CircleCI, ClearBit, ClickUp, Fly.io, Fullstory, Google Play, Incident.io, Klarna, LaunchDarkly, Linear, LinkedIn, Mapbox, Mixpanel, New Relic, NextRoll, Optimizely, PagerDuty, Pendo, Plausible, Qualtrics, Sanity, Segment, Shortcut, and Travis CI.
+This release adds entries for AirGateway, Algolia, Appveyor, Automattic/Wordpress, Braze, Contentstack, CircleCI, ClearBit, ClickUp, Fly.io, Fullstory, Google Play, Incident.io, Klarna, LaunchDarkly, Linear, LinkedIn, Mapbox, Mixpanel, New Relic, NextRoll, Optimizely, PagerDuty, Pendo, Plausible, Qualtrics, Sanity, Segment, Shortcut, and Travis CI.
 
 This release improves the entries for Atlassian, Codecov, Dropbox, GitHub, Google Ads, Google Cloud, PayPal, Sentry, and Zendesk.
 
