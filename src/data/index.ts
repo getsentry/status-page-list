@@ -23,6 +23,7 @@ export { azureStatusInfo } from "./azure";
 export { bambooHrStatusInfo } from "./bamboohr";
 export { boxStatusInfo } from "./box";
 export { brazeStatusInfo } from "./braze";
+export { chiefToolsStatusInfo } from "./chief_tools";
 export { circleCiStatusInfo } from "./circleci";
 export { clearbitStatusInfo } from "./clearbit";
 export { clickhousecloudStatusInfo } from "./clickhouse_cloud";
