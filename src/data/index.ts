@@ -58,6 +58,7 @@ export { incidentIoStatusInfo } from "./incident_io";
 export { intercomStatusInfo } from "./intercom";
 export { jitterbitStatusInfo } from "./jitterbit";
 export { klarnaStatusInfo } from "./klarna";
+export { laravelStatusInfo } from "./laravel";
 export { latticeStatusInfo } from "./lattice";
 export { launchDarklyStatusInfo } from "./launchdarkly";
 export { linearStatusInfo } from "./linear";
