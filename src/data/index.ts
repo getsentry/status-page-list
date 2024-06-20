@@ -65,6 +65,7 @@ export { linkedInStatusInfo } from "./linkedin";
 export { linodeStatusInfo } from "./linode";
 export { lucidStatusInfo } from "./lucid";
 export { mailchimpStatusInfo } from "./mailchimp";
+export { makeStatusInfo } from "./make";
 export { mapboxStatusInfo } from "./mapbox";
 export { metaStatusInfo } from "./meta";
 export { microsoftCloudStatusInfo } from "./microsoft_cloud";
