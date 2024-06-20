@@ -82,6 +82,7 @@ export { payPalStatusInfo } from "./paypal";
 export { pendoStatusInfo } from "./pendo";
 export { pinterestStatusInfo } from "./pinterest";
 export { plausibleStatusInfo } from "./plausible";
+export { pythonStatusInfo } from "./python";
 export { qualtricsStatusInfo } from "./qualtrics";
 export { redditStatusInfo } from "./reddit";
 export { repetitiStatusInfo } from "./repetiti";
