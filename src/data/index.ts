@@ -51,6 +51,7 @@ export { googlePlayStatusInfo } from "./google_play";
 export { googleWorkspaceStatusInfo } from "./google_workspace";
 export { grammarlyStatusInfo } from "./grammarly";
 export { herokuStatusInfo } from "./heroku";
+export { hexStatusInfo } from "./hex";
 export { hiBobStatusInfo } from "./hibob";
 export { hubspotStatusInfo } from "./hubspot";
 export { incidentIoStatusInfo } from "./incident_io";
