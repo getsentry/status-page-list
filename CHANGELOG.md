@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.0
+
+This release adds entries for Chief Tools, Hex, Laravel, Make, and Python.
+
+- feat: Add more entries (#19) from @stayallive
+- feat: Add status.chief.tools (#18) from @stayallive
+
 ## 0.2.0
 
 This release adds entries for AirGateway, Algolia, Appveyor, Automattic/Wordpress, Braze, Contentstack, CircleCI, ClearBit, ClickUp, Fly.io, Fullstory, Google Play, Incident.io, Klarna, LaunchDarkly, Linear, LinkedIn, Mapbox, Mixpanel, New Relic, NextRoll, Optimizely, PagerDuty, Pendo, Plausible, Qualtrics, Sanity, Segment, Shortcut, and Travis CI.
