@@ -37,12 +37,12 @@
     "format:fix": "prettier --write ."
   },
   "devDependencies": {
-    "@types/node": "^20.12.5",
-    "bunchee": "^5.1.2",
-    "magicast": "^0.3.3",
-    "prettier": "3.2.5",
-    "tsx": "^4.7.2",
-    "typescript": "^5.4.4",
+    "@types/node": "^20.14.10",
+    "bunchee": "^5.2.2",
+    "magicast": "^0.3.4",
+    "prettier": "3.3.2",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
     "vitest": "^1.4.0"
   },
   "repository": {
