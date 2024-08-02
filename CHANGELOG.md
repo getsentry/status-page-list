@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.4.0
+
+This release adds entries for Jotform, Paubox, and SendGrid.
+
+This release improves the entry for Vercel
+
+- feat: Add more entries (#27)
+
+Thanks to @houserx-jmcc for the suggestions on the new entries.
+
 ## 0.3.0
 
 This release adds entries for Chief Tools, Hex, Laravel, Make, and Python.
