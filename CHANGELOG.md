@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.0
+
+This release adds entries for Autodesk, Etsy, InfluxData, Loom, Miro, Monday.com, PlanetScale, Pleo, Ravelin, Render, Rippling, Squarespace, Twilio, and Vanta.
+
+- feat: Add new entries (#30)
+
 ## 0.4.0
 
 This release adds entries for Jotform, Paubox, and SendGrid.
