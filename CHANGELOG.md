@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.0
+
+- feat: add `bitbucket.org` pointing to Atlassian statuspage (#41) from @oioki
+
 ## 0.5.0
 
 This release adds entries for Autodesk, Etsy, InfluxData, Loom, Miro, Monday.com, PlanetScale, Pleo, Ravelin, Render, Rippling, Squarespace, Twilio, and Vanta.
