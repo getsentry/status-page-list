@@ -9,6 +9,8 @@ export const domains = [
   "*.atlassian.net",
   "atlassian.com",
   "*.atlassian.com",
+  "bitbucket.org",
+  "*.bitbucket.org",
   "statuspage.io",
   "*.statuspage.io",
   "jira.com",
