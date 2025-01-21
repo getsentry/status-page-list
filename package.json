@@ -37,12 +37,12 @@
     "format:fix": "prettier --write ."
   },
   "devDependencies": {
-    "@types/node": "^22.10.2",
-    "bunchee": "^6.0.3",
+    "@types/node": "^22.10.7",
+    "bunchee": "^6.3.2",
     "magicast": "^0.3.5",
     "prettier": "^3.4.2",
     "tsx": "^4.19.2",
-    "typescript": "^5.7.2",
+    "typescript": "^5.7.3",
     "vitest": "^2.1.8"
   },
   "repository": {
@@ -54,7 +54,7 @@
   },
   "homepage": "https://github.com/getsentry/status-page-list#readme",
   "volta": {
-    "node": "22.12.0",
+    "node": "22.13.0",
     "yarn": "1.22.22"
   },
   "publishConfig": {

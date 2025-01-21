@@ -45,6 +45,8 @@ export const domainToStatusPageUrls = {
   "*.atlassian.net": "https://status.atlassian.com/",
   "atlassian.com": "https://status.atlassian.com/",
   "*.atlassian.com": "https://status.atlassian.com/",
+  "bitbucket.org": "https://status.atlassian.com/",
+  "*.bitbucket.org": "https://status.atlassian.com/",
   "statuspage.io": "https://status.atlassian.com/",
   "*.statuspage.io": "https://status.atlassian.com/",
   "jira.com": "https://status.atlassian.com/",
