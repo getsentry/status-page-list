@@ -14,13 +14,13 @@ describe("index", () => {
     );
 
     const dataExports = (
-      await Promise.all(files.map((file) => import(`../../src/data/${file}`)))
+      // need to replace .ts with empty string to import the file because
+      // the import statement expects static file extensions
+      await Promise.all(files.map((file) => import(`../../src/data/${file.replace(".ts", "")}.ts`)))
     ).map((i: typeof sentryData) => {
       const { name, statusPageUrl, domains, isServiceDefunct, ...rest } = i;
       return Object.keys(rest)[0] as string;
     });
-
-    console.log(indexExports, dataExports);
 
     expect(indexExports).toEqual(dataExports);
   });
