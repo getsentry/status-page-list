@@ -1,6 +1,6 @@
 import { StatusPageInfo } from "../types";
 
-export const name = "DigitalyOcean";
+export const name = "DigitalOcean";
 
 export const statusPageUrl = "https://status.digitalocean.com/";
 
