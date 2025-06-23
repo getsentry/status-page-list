@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.1
+
+- fix: Correct `DigitalOcean` name (#52) from @tadhglewis
+
 ## 0.6.0
 
 - feat: add `bitbucket.org` pointing to Atlassian statuspage (#41) from @oioki
