@@ -57,6 +57,7 @@ export { herokuStatusInfo } from "./heroku";
 export { hexStatusInfo } from "./hex";
 export { hiBobStatusInfo } from "./hibob";
 export { hubspotStatusInfo } from "./hubspot";
+export { iGamingToolsStatusInfo } from "./igaming_tools";
 export { incidentIoStatusInfo } from "./incident_io";
 export { influxDataStatusInfo } from "./influxdata";
 export { intercomStatusInfo } from "./intercom";
